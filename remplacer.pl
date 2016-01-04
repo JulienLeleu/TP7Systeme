@@ -29,8 +29,8 @@ if($choix eq "O")
     
     foreach $ligne (@lignes)
     {
-	$ligne =~ s/$aRemplacer/$remplacement/g;
-	print FILE $ligne;
+		$ligne =~ s/$aRemplacer/$remplacement/g;
+		print FILE $ligne;
     }
 }
 else
